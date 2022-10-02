@@ -1,0 +1,27 @@
+.whoweare {
+  position: relative;
+}
+
+.whoweare:before {
+  content: '';
+  position: absolute;
+  left: 3px;
+  bottom: -10px;
+  height: 1px;
+  width: 85px;
+  border-bottom: 4px solid #794b1a;
+}
+
+.whatwedo {
+  position: relative;
+}
+
+.whatwedo:before {
+  content: '';
+  position: absolute;
+  left: 70px;
+  bottom: -10px;
+  height: 1px;
+  width: 100px;
+  border-bottom: 4px solid #794b1a;
+}
